@@ -1,0 +1,78 @@
+.header {
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(10, 20, 58);
+}
+
+.header-logo span {
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 6px;
+}
+
+.control-lang {
+    color: rgb(196, 196, 196);
+    margin: 0;
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ru {
+    padding-right: 8px;
+    border-right: 1px solid rgb(229, 229, 229);
+}
+
+.us {
+    padding-left: 8px;
+}
+
+/* .ru .us:hover {
+    color: rgb(37, 110, 235);
+} */
+
+.ru:hover {
+    color: rgb(37, 110, 235)
+}
+
+
+.us:hover {
+    color: rgb(37, 110, 235)
+}
+
+.header-burger {
+    width: 30px;
+    height: 19px;
+    display: none;
+}
+
+@media (max-width: 786px) {
+    .header-controls {
+        display: none;
+    }
+
+    .control-lang {
+        display: block;
+    }
+
+    .header-burger {
+        display: block;
+    }
+}
